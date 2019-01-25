@@ -1,0 +1,98 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Muli', sans-serif;
+}
+/* #jumbotron {
+    background-color: #00d2d3;
+    background-image: url('../images/honeycomb.bg3.png') no-repeat center;
+    width: 100%;
+    height: auto;
+} */
+
+.navbar {
+    background-color: transparent;
+    color: white;
+}
+.navbar.scrolled {
+    background-color: #0b3577;
+}
+
+.navbar a {
+    color: white;
+}
+
+#mainNavbar a:hover {
+    transition: border 0.5s;
+    border-bottom: 1px solid white;
+}
+
+/* Main Header */
+#showcase {
+    background: url('https://images.unsplash.com/photo-1522986949846-f63066ace3de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') bottom center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+}
+#overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#header {
+    z-index: 2;
+}
+
+/* About section */
+
+#aboutSection {
+    background: #0b3577;
+    font-family: 'Raleway', sans-serif;
+}
+#aboutSection ul {
+    line-height: 2.5rem;
+    font-size: 1.5rem; 
+}
+#aboutText {
+    font-size: 1.75rem;
+}
+
+#servicesList ul {
+    list-style-type: none;
+}
+
+#aboutContainer {
+    background-color: #f8f9fa;
+}
+#listSection {
+    background-color: #343a40;
+}
+
+#servicesSec1 {
+    background-color: #00d2d3;
+}
+
+#servicesSec2 {
+    background-color: #576574;
+}
+
+/* Footer Section */
+#dcSkyline {
+    position: relative;
+    max-width: 100%;
+}
+#footerSection {
+    color: white;
+    background: #343a40;
+}
+#footerSection a {
+    color: white;
+}
+#footerSection a:hover {
+    color: rgba(255, 255, 255, 0.521);
+}
+#copyright {
+    font-size: .75rem;
+}

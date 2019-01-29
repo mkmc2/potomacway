@@ -22,8 +22,7 @@ body {
 }
 
 #mainNavbar a:hover {
-    transition: border 0.5s;
-    border-bottom: 1px solid white;
+    color: rgba(255, 255, 255, 0.521);
 }
 
 /* Main Header */
@@ -44,7 +43,42 @@ body {
 #header {
     z-index: 2;
 }
+.btn-primary {
+    background-color: #0b3577;
+    border-color: #ffffff;
+}
 
+/* New Services Section */
+#bulletPointBlocks {
+    background:#343a40;
+}
+#tallImage {
+    background: url('https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80') bottom center / cover no-repeat;
+    min-height: 600px;
+    position: relative;
+}
+#tallImageOverlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#tallImageText {
+    line-height: 4rem;
+    letter-spacing: rem;
+}
+#image2div {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
 /* About section */
 
 #aboutSection {
@@ -62,20 +96,17 @@ body {
 #servicesList ul {
     list-style-type: none;
 }
-
-#aboutContainer {
-    background-color: #f8f9fa;
-}
-#listSection {
-    background-color: #343a40;
-}
-
-#servicesSec1 {
-    background-color: #00d2d3;
+/* Our Approach */
+#ourApproach {
+    background: white;
+    margin-left: -20%;
+    position: absolute;
 }
 
-#servicesSec2 {
-    background-color: #576574;
+/* Contact Section */
+.fas {
+    font-size: 2.5rem;
+    color: #0b3577;
 }
 
 /* Footer Section */

@@ -2,12 +2,14 @@ body {
     background-color: #f8f9fa;
     font-family: 'Muli', sans-serif;
 }
-/* #jumbotron {
-    background-color: #00d2d3;
-    background-image: url('../images/honeycomb.bg3.png') no-repeat center;
-    width: 100%;
-    height: auto;
-} */
+h2 {
+    text-transform: uppercase;
+    color: #0b3577;
+}
+hr {
+    border-color: rgb(207, 207, 207);
+    max-width: 100%;
+}
 
 .navbar {
     background-color: transparent;
@@ -43,9 +45,20 @@ body {
 #header {
     z-index: 2;
 }
-.btn-primary {
+.btn {
     background-color: #0b3577;
     border-color: #0b3577;
+}
+#tagline {
+    font-size: 1.5rem;
+}
+#helpText {
+    color: rgb(207, 207, 207);
+    font-size: 1rem;
+}
+#headerTextBg {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
 }
 
 /* New Services Section */
@@ -67,8 +80,10 @@ body {
     z-index: 1;
 }
 #tallImageText {
-    line-height: 4rem;
-    letter-spacing: rem;
+    line-height: 3.5rem;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+
 }
 #image2div {
     background: rgba(0, 0, 0, 0.5);

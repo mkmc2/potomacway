@@ -170,7 +170,7 @@ hr {
     font-weight: .5rem;
 }
 #aboutBox {
-        background: white;
+        background: #0b3577;
         margin-top: -40px;
         z-index: 2;
         position: relative;
@@ -185,7 +185,8 @@ hr {
     max-width: 100%;
 }
 #aboutPara {
-    background: white;
+    background: #0b3577;
+    color: white;
     box-shadow: #343a40;
     font-size: 1.25rem;
     font-weight: .5rem;

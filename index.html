@@ -237,8 +237,10 @@
             </div>
             </div>
             <hr>
+
+            <!--Form Input Section-->
             <div class="col-md-6 pt-3">
-                <form class="p-3 border rounded">
+                <form id="formInput" class="p-4 border rounded">
                   <div class="row">
                     <div class="col form-group">
                       <label>Your First Name</label>
@@ -251,7 +253,13 @@
                   </div>
                   <div class="row">
                     <div class="col form-group">
-                      <label>Enter your Email</label>
+                      <label for="companyNameInput">What is the name of your company?</label>
+                      <input type="text" class="form-control" id="companyNameInput" aria-describedby="emailHelp" placeholder="Company Name">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <label for="exampleInputEmail1">Enter your Email</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
                     </div>
                   </div>
@@ -261,7 +269,7 @@
                       <textarea class="form-control" id="textInput" rows="3">Tell us about you or our company.</textarea>
                     </div>
                   </div>
-                  <button class="btn btn-primary">Submit</button>
+                  <button id="formSubmitButton" class="btn btn-primary btn-block">Submit</button>
                 </form>
             </div>
           </div>

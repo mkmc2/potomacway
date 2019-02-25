@@ -94,6 +94,7 @@ hr {
     height: 100%;
     z-index: 1;
 }
+
 /* About section */
 
 #aboutSection {
@@ -122,6 +123,21 @@ hr {
 .fas {
     font-size: 2.5rem;
     color: #0b3577;
+}
+/* Form Input Section */
+#formInput {
+    background: #343a40;
+    color: white;
+}
+#formSubmitButton {
+    background: #343a40;
+    border: white 1px solid;
+    color: white;
+}
+#formSubmitButton:hover {
+    background: white;
+    border: #343a40 1px solid;
+    color: #343a40;
 }
 
 /* Footer Section */
@@ -212,4 +228,8 @@ hr {
     z-index: -1;
     margin-left: -10%;
     margin-top: -10%;
+}
+#ourTeamBg {
+    height: auto;
+    background: #343a40;
 }

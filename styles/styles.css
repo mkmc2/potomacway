@@ -56,6 +56,9 @@ hr {
 #header {
     z-index: 2;
 }
+#toggleButton {
+    color: white;
+}
 .btn {
     background-color: #3742fa;
     border-color: #3742fa;
@@ -152,8 +155,8 @@ li {
 }
 /* Form Input Section */
 #formInput {
-    background: #343a40;
-    color: white;
+    background: #f1f2f6;
+    color: #3742fa;
 }
 #formSubmitButton {
     background: #343a40;

@@ -24,8 +24,8 @@
       <nav class="navbar navbar-expand-sm fixed-top" id="mainNavbar">
           <!-- <a class="navbar-brand" href="#">PW</a> -->
           <img src="images/pw.1.w.png" width="40" height="40" class="d-inline-block align-top mr-2" alt="Potomac Way">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button id="toggleButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="togglebutton" class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
@@ -51,7 +51,7 @@
             <div class="row">
               <div id="headerTextBg" class="col-7 py-4">
                 <!-- <h3 class="display-5 mb-0"></h3> -->
-                <h1 id="headline" class="display-3 p-2 d-inline-block align-items-center">Potomac Way</h1>
+                <h1 id="headline" class="display-3 p-2 pr-3 d-inline-block align-items-center">Potomac Way</h1>
                 <p id="tagline" class="d-none d-md-block p-2">We offer a comprehensive, cost effective set of advisory services to emerging growth and middle market businesses.</p>
                 <hr class="">
                 <!-- <p id="helpText" class="lead">WANT TO HEAR HOW WE CAN HELP</p> -->
@@ -74,11 +74,11 @@
 
         <section class="pt-3" id="ourServices">
           <div class="container text-center mt-5">
-              <h2>Services</h2>
+              <h2>Services<img src='images/h2accent.png'width="40" height="40" class="d-inline-block align-top" alt="Header Two Accent"></h2>
               <p class="lead">Success in business is never guaranteed. As former business leaders and operators, Potomac Way principals bring the experience and know how to address and solve critical business issues.</p>
               <div class="row pb-5">
                   <div class="col-md-4 p-3">
-                      <img src="images/adress.png" height="auto" width="150" class="img-fluid d-none d-md-inline" alt="Address Icon">
+                      <img src="images/address2.png" height="auto" width="150" class="img-fluid d-none d-md-inline" alt="Address Icon">
                       <h4>Address</h4>
                       <p>Every day business leaders face new challenges, which may represent threats or opportunities.</p>
                   </div>
@@ -88,7 +88,7 @@
                       <p>We believe access to talented people with the correct skillset, is essential to achieving the right results.</p>
                   </div>
                   <div class="col-md-4 p-3">
-                      <img src="images/apply.png" hehtheight="auto" width="150" class="img-fluid d-none d-md-inline" alt="Apply Icon">
+                      <img src="images/apply2.png" hehtheight="auto" width="150" class="img-fluid d-none d-md-inline" alt="Apply Icon">
                       <h4>Apply</h4>
                       <p>Our highly experience team understands how to apply strategy, tactics, and execution to achieve optimal outcomes.</p>
                   </div>
@@ -147,7 +147,7 @@
                 <div class="col-md-5 px-3 pb-3">
                   <div class="" id="approachBgImage"></div>
                     <div id="ourApproach" class="p-3">
-                      <h2>OUR APPROACH</h2>
+                      <h2>OUR APPROACH<img src='images/h2accent.png'width="40" height="40" class="d-inline-block align-top" alt="Header Two Accent"></h2>
                       <p>Our work begins with a rapid assessment of your business operation to ensure we understand the critical factors for achieving success.  We will review your strategic plans, operating plans, and near and long term financial forecasts.  We will analyze your balance sheet, cash flows, and all market data.  We assess your human resources to determine personnel strengths and weaknesses.  Our functional experts delve into specific requirements necessary to understand technical issues in detail.  Our work will identify and analyze a range of appropriate alternatives resulting in a specific set of recommendations which to act on.</p>
                     </div>
                  </div>
@@ -205,7 +205,7 @@
     <!--Contact Form-->
     <section class="pt-5" id="contactForm">
       <div class="container">
-          <h2 class="text-center pt-4">Contact Us</h2>
+          <h2 class="text-center pt-4">Contact Us<img src='images/h2accent.png'width="40" height="40" class="d-inline-block align-top" alt="Header Two Accent"></h2>
           <div class="row pb-4 pt-2">
             <div class="col-md-6 p-3">
               <p class="lead">We understand the pressure you’re under. We will work with a sense of urgency to respond to your critical needs. </p>
@@ -267,7 +267,7 @@
                   <div class="row">
                     <div class="col form-group">
                       <label for="textInput">Message</label>
-                      <textarea class="form-control" id="textInput" rows="3">Tell us about you or our company.</textarea>
+                      <textarea class="form-control" id="textInput" rows="3" placeholder="Tell us about your company..."></textarea>
                     </div>
                   </div>
                   <button id="formSubmitButton" class="btn btn-primary btn-block">Submit</button>

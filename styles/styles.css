@@ -1,10 +1,19 @@
+/* color pallet
+main blue: #1e90ff
+secondary blue: #3742fa
+main gray: #57606f
+secondary gray: #f1f2f6
+other: #2f3542
+*/
+
+
 body {
     background-color: #f8f9fa;
     font-family: 'Muli', sans-serif;
 }
 h2 {
     text-transform: uppercase;
-    color: #0b3577;
+    color: #2f3542;
 }
 hr {
     border-color: rgb(207, 207, 207);
@@ -16,7 +25,7 @@ hr {
     color: white;
 }
 .navbar.scrolled {
-    background-color: #0b3577;
+    background-color: #3742fa;
 }
 
 .navbar a {
@@ -29,11 +38,13 @@ hr {
 
 /* Main Header */
 #showcase {
-    background: url('https://images.unsplash.com/photo-1522986949846-f63066ace3de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80') bottom center / cover no-repeat;
+    background: url("../images/mountainBGimage.png") bottom center / cover no-repeat;
     min-height: 750px;
     position: relative;
+    margin-right: auto;
 }
-#overlay {
+/* Cherry Blossoms Image Link: 'https://images.unsplash.com/photo-1522986949846-f63066ace3de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80'*/
+/* #overlay {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -41,13 +52,13 @@ hr {
     width: 100%;
     height: 100%;
     z-index: 1;
-}
+} */
 #header {
     z-index: 2;
 }
 .btn {
-    background-color: #0b3577;
-    border-color: #0b3577;
+    background-color: #3742fa;
+    border-color: #3742fa;
 }
 #tagline {
     font-size: 1.5rem;
@@ -56,12 +67,17 @@ hr {
     color: rgb(207, 207, 207);
     font-size: 1rem;
 }
-#headerTextBg {
+/* #headerTextBg {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
+} */
+#headline, #tagline, #helpText {
+    background: black;
 }
-
 /* New Services Section */
+li {
+    list-style-type: none;
+}
 #bulletPointBlocks {
     background:#343a40;
 }
@@ -98,7 +114,7 @@ hr {
 /* About section */
 
 #aboutSection {
-    background: #0b3577;
+    background: #3742fa;
     font-family: 'Raleway', sans-serif;
 }
 #aboutSection ul {
@@ -113,6 +129,16 @@ hr {
     list-style-type: none;
 }
 /* Our Approach */
+/* #approachBgImage {
+    background: url("../images/corners.image.png") bottom center / cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+} */
+
 #ourApproach {
     background: white;
     margin-left: -20%;
@@ -120,9 +146,9 @@ hr {
 }
 
 /* Contact Section */
-.fas {
+#contactForm .fas {
     font-size: 2.5rem;
-    color: #0b3577;
+    color: #3742fa;
 }
 /* Form Input Section */
 #formInput {
@@ -186,7 +212,7 @@ hr {
     font-weight: .5rem;
 }
 #aboutBox {
-        background: #0b3577;
+        background: #3742fa;
         margin-top: -40px;
         z-index: 2;
         position: relative;
@@ -201,7 +227,7 @@ hr {
     max-width: 100%;
 }
 #aboutPara {
-    background: #0b3577;
+    background: #3742fa;
     color: white;
     box-shadow: #343a40;
     font-size: 1.25rem;

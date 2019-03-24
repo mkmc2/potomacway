@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("your@email.address", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -241,7 +247,7 @@
 
             <!--Form Input Section-->
             <div class="col-md-6 pt-3">
-                <form id="formInput" class="p-4 border rounded">
+                <form id="formInput" class="p-4 border rounded" method="post" action="contact.php">
                   <div class="row">
                     <div class="col form-group">
                       <label>Your First Name</label>

@@ -1,9 +1,4 @@
-<?php
-if($_POST["message"]) {
-  // console.log("got here");
-    mail("matt@split-app.com", "Form to email message", $_POST["message"], "From: mkmclaughlin2@gmail.com");
-}
-?>
+
 
 <!doctype html>
 <html lang="en">

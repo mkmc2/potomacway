@@ -1,6 +1,6 @@
 <?php
 if($_POST["message"]) {
-  console.log("got here");
+  // console.log("got here");
     mail("matt@split-app.com", "Form to email message", $_POST["message"], "From: mkmclaughlin2@gmail.com");
 }
 ?>

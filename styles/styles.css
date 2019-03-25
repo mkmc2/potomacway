@@ -81,6 +81,7 @@ hr {
 li {
     list-style-type: none;
 }
+
 #bulletPointBlocks {
     background:#343a40;
 }
@@ -99,10 +100,16 @@ li {
     z-index: 1;
 }
 #tallImageText {
-    line-height: 3.5rem;
+    line-height: 3rem;
     letter-spacing: .25rem;
     text-transform: uppercase;
 
+}
+@media (max-width: 1200px) {
+    #tallImageText {
+        font-size: 1rem;
+        line-height: 3rem;
+    }
 }
 #image2div {
     background: rgba(0, 0, 0, 0.5);
@@ -206,6 +213,10 @@ li {
 }
 #aboutJohn {
     background: white;
+}
+#wwaText {
+    background: #3742fa;
+    color: white;
 }
 #additionalAboutContainer {
     background: #343a40;

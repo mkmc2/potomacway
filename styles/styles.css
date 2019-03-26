@@ -36,9 +36,9 @@ hr {
     color: rgba(255, 255, 255, 0.521);
 }
 
-/* Main Header */
+/* Main header */
 #showcase {
-    background: url("../images/mountainBGimage2.png") bottom center / cover no-repeat;
+    background: url("../images/mountainBGimage3.png") bottom center / cover no-repeat;
     min-height: 750px;
     position: relative;
     margin-right: auto;

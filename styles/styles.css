@@ -38,7 +38,7 @@ hr {
 
 /* Main Header */
 #showcase {
-    background: url("../images/mountainBGimage.png") bottom center / cover no-repeat;
+    background: url("../images/mountainBGimage2.png") bottom center / cover no-repeat;
     min-height: 750px;
     position: relative;
     margin-right: auto;
@@ -70,13 +70,13 @@ hr {
     color: rgb(207, 207, 207);
     font-size: 1rem;
 }
-/* #headerTextBg {
+#headerTextBg {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-} */
-#headline, #tagline, #helpText {
-    background: black;
 }
+/* #headline, #tagline, #helpText {
+    background: black;
+} */
 /* New Services Section */
 li {
     list-style-type: none;
@@ -120,7 +120,17 @@ li {
     height: 100%;
     z-index: 1;
 }
-
+/* Small Our Approach Section*/
+/* #ourApproachSmBg {
+    background: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+#ourApproach2 {
+    background: white;
+}
 /* About section */
 
 #aboutSection {

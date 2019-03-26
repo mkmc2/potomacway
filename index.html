@@ -16,14 +16,15 @@
     <!--CSS Link-->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/pw.1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/pw.icon.2.png" type="image/x-icon">
 
     <title>Potomac Way</title>
   </head>
   <body>
       <nav class="navbar navbar-expand-sm fixed-top" id="mainNavbar">
-          <!-- <a class="navbar-brand" href="#">PW</a> -->
-          <img src="images/pw.1.w.png" width="40" height="40" class="d-inline-block align-top mr-2" alt="Potomac Way">
+          <a class="navbar-brand" href="#">
+            <img src="images/pw.1.w.png" width="40" height="40" class="d-inline-block align-top mr-2" alt="Potomac Way">
+          </a>
           <button id="toggleButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span id="togglebutton" class="navbar-toggler-icon"></span>
           </button>
@@ -139,7 +140,7 @@
 
       <!--Our Approach with Image Carousel-->
       <section>
-        <div class="container pt-4">
+        <div class="d-none d-lg-block container pt-4">
             <div class="row py-5">
                 <div class="col-md-7 pb-4">
                   <img class="img-fluid" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
@@ -153,6 +154,18 @@
                  </div>
             </div>
         </div>
+    </section>
+
+    <!--Only Shows on Medium and Below-->
+    <section class="">
+      <div id="ourApproachSmBg" class="container d-lg-none pb-3">
+        <div class="row">
+          <div id="ourApproach2" class="p-3">
+            <h2>OUR APPROACH<img src='images/h2accent.png'width="40" height="40" class="d-inline-block align-top" alt="Header Two Accent"></h2>
+            <p>Our work begins with a rapid assessment of your business operation to ensure we understand the critical factors for achieving success.  We will review your strategic plans, operating plans, and near and long term financial forecasts.  We will analyze your balance sheet, cash flows, and all market data.  We assess your human resources to determine personnel strengths and weaknesses.  Our functional experts delve into specific requirements necessary to understand technical issues in detail.  Our work will identify and analyze a range of appropriate alternatives resulting in a specific set of recommendations which to act on.</p>
+          </div>
+        </div>
+      </div>
     </section>
     
     <!--Quote Carousel-->
@@ -218,7 +231,7 @@
                   <a href="#">Service@potomacway.com</a>
                 </div>
             </div>
-            <div class="row py-3">
+            <!-- <div class="row py-3">
               <div class="col-md-2 d-flex align-items-center">
                 <i class="fas fa-phone"></i>
               </div>
@@ -235,7 +248,7 @@
                 <h4>Hours:</h4>
                 <P class="">Mon-Fri: 8AM-7PM</P>
               </div>
-            </div>
+            </div> -->
             </div>
             <hr>
 

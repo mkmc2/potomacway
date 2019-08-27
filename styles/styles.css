@@ -64,7 +64,7 @@ hr {
     border-color: #3742fa;
 }
 #tagline {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #helpText {
     color: rgb(207, 207, 207);
@@ -282,4 +282,11 @@ li {
 #ourTeamBg {
     height: auto;
     background: #343a40;
+}
+
+/* About Section - 3 Partners */
+#bioContainer {
+    background: #ffffff;
+    border: #474747 solid 1.5px;
+    border-radius: 2px;
 }
